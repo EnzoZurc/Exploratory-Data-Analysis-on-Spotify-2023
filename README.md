@@ -29,3 +29,4 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After converting I can now easily get the mean median and standard deviation using the syntaxes below.</br>
 ![image](https://github.com/user-attachments/assets/ebcba88d-4cad-46d9-a5b6-93dd4d2f6dc7)</br></br>
 
+#### * &nbsp;&nbsp;What is the distribution of released_year and artist_count? Are there any noticeable trends or outliers? </br>
