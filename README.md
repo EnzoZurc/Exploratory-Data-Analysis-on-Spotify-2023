@@ -30,3 +30,22 @@
 ![image](https://github.com/user-attachments/assets/ebcba88d-4cad-46d9-a5b6-93dd4d2f6dc7)</br></br>
 
 #### * &nbsp;&nbsp;What is the distribution of released_year and artist_count? Are there any noticeable trends or outliers? </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First to find the **trends** of the released_year and artist_count I used histogram plots to easily see them, which is shown on the image below. </br>
+![image](https://github.com/user-attachments/assets/1aa49549-7605-47bf-97e3-0f91cd1b638b)</br>
+![image](https://github.com/user-attachments/assets/12edba1c-fb6f-45cd-a30a-2429101e5189)</br>
+![image](https://github.com/user-attachments/assets/cd3b6bef-6c9f-4f60-a343-ce35ce99f086)</br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After viewing the plots I concluded that the dataset is heavily skewed towards recent music releases, with the majority of songs concentrated around and after the year 2020. This sharp increase in frequency near the end of the timeline indicates a strong emphasis on contemporary music, suggesting that the dataset may be designed to reflect current trends in streaming. In contrast, songs released before the year 2000 are sparsely represented, with almost negligible counts for releases prior to the 1980s. This shows a significant recency bias in the data, highlighting a potential lack of representation for older music.</br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As fot the histogram of the artist_count, it shows that most songs in the dataset feature a single artist, with a noticeable drop in frequency for songs with two artists. While two-artist collaborations are still somewhat common, songs with three or more artists become increasingly rare. Overall, the data is heavily skewed toward solo and small-group performances, with larger collaborations being uncommon. </br></br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To identify the **outliers**, I used box plots, which made it easier to spot them visually. Seen on the image below.</br>
+![image](https://github.com/user-attachments/assets/0c067bde-506a-48b2-8ef5-fd42935e53ff)</br>
+![image](https://github.com/user-attachments/assets/54dead4b-78b8-4f05-ad98-54b265657a9e)</br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reviewing both plots, The box plot for **released_year** shows that most songs in the dataset were released around the most recent years, as indicated by the concentration of values near the end of the timeline. The outliers, represented as individual dots extending to the left, are songs released in earlier years (e.g., before 1980). These outliers indicate that there are a few older songs in the dataset, which are far from the main cluster of more recent releases.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As for the box plot for **artist_count** indicates that most songs have one or two artists, as shown by the interquartile range covering these values. The outliers here are songs with a higher number of artists, specifically four to eight artists. These outliers reflect less common instances where a song has many contributing artists, which deviate significantly from the typical one or two-artist scenario.</br></br></br>
+
+
+###  Top Performers
+#### * &nbsp;&nbsp;Which track has the highest number of streams? Display the top 5 most streamed tracks. </br>
