@@ -43,9 +43,32 @@
 ![image](https://github.com/user-attachments/assets/0c067bde-506a-48b2-8ef5-fd42935e53ff)</br>
 ![image](https://github.com/user-attachments/assets/54dead4b-78b8-4f05-ad98-54b265657a9e)</br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reviewing both plots, The box plot for **released_year** shows that most songs in the dataset were released around the most recent years, as indicated by the concentration of values near the end of the timeline. The outliers, represented as individual dots extending to the left, are songs released in earlier years (e.g., before 1980). These outliers indicate that there are a few older songs in the dataset, which are far from the main cluster of more recent releases.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reviewing both plots, The box plot for **released_year** shows that most songs in the dataset were released around the most recent years, as indicated by the concentration of values near the end of the timeline. The outliers, represented as individual dots extending to the left, are songs released in earlier years (e.g., before 1980). These outliers indicate that there are a few older songs in the dataset, which are far from the main cluster of more recent releases.</br></br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As for the box plot for **artist_count** indicates that most songs have one or two artists, as shown by the interquartile range covering these values. The outliers here are songs with a higher number of artists, specifically four to eight artists. These outliers reflect less common instances where a song has many contributing artists, which deviate significantly from the typical one or two-artist scenario.</br></br></br>
 
 
 ###  Top Performers
 #### * &nbsp;&nbsp;Which track has the highest number of streams? Display the top 5 most streamed tracks. </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To find the top 5 streamed trackes we'll have to sort the data set based on their stream values using the following code.</br>
+![image](https://github.com/user-attachments/assets/9d412dc5-4820-4166-b8ec-4f439e79d4b6)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Based image above we can see that the top 5 streamed tracks are Blinding Lights by the Weeknd, Shape of You by Ed Sheeran, Someone You Loved by Lewis Capaldi, Dance Monkey by Tones and I, and Sunflower - Spider-Man: Into the Spider-Verse by Post Malone and Swae Lee respectively.</br></br>
+
+#### * &nbsp;&nbsp;Who are the top 5 most frequent artists based on the number of tracks in the dataset? </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To find this we have to count how many times the artist appears in the data set, then we have to sort it based on the first 5 entries that is most frequent. The code is shown on the image below.</br>
+![image](https://github.com/user-attachments/assets/6ffd845c-c7d8-41ed-b7da-f3e7b01f8f08)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Based on the image above, Taylor Swift has the highest number of tracks in the dataset with 34 songs. She is followed by The Weeknd with 22 tracks. Bad Bunny and SZA each have 19 tracks, and Harry Styles follows with 17 tracks.</br></br></br>
+
+
+### Temporal Trends
+#### * &nbsp;&nbsp;Analyze the trends in the number of tracks released over time. Plot the number of tracks released per year. </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Before plotting, we first need to count the number of tracks released per year. Once we have this data, we should sort it in chronological order to make the plot easier to interpret. The code for this process is shown in the image below.</br>
+![image](https://github.com/user-attachments/assets/10e70c74-5e97-4d56-93ac-febedbc92277)</br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After sorting, we can now plot it using a line plot shown in the image below.</br>
+![image](https://github.com/user-attachments/assets/35c2882d-2f2f-4e5e-ab18-1c20257ffaa9)</br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The plot shows that from 1940 to the early 2000s, the number of tracks released per year remained low and stable. Starting in the 2000s, there was a steady increase, which became much more dramatic in the 2010s, peaking sharply around 2020. This trend suggests rapid growth in music production, likely driven by digital distribution and industry changes.</br></br>
+
+#### * &nbsp;&nbsp;Does the number of tracks released per month follow any noticeable patterns? Which month sees the most releases? </br>
+
+
