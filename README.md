@@ -70,5 +70,17 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The plot shows that from 1940 to the early 2000s, the number of tracks released per year remained low and stable. Starting in the 2000s, there was a steady increase, which became much more dramatic in the 2010s, peaking sharply around 2020. This trend suggests rapid growth in music production, likely driven by digital distribution and industry changes.</br></br>
 
 #### * &nbsp;&nbsp;Does the number of tracks released per month follow any noticeable patterns? Which month sees the most releases? </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To do this we'll have to count the number of tracks released for each month, we can do this using the PANDAS code below.</br>
+![image](https://github.com/user-attachments/assets/709cd297-acf0-4022-98dc-45813a481f04)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After counting the tracks per month, we can now plot it shown below.</br>
+![image](https://github.com/user-attachments/assets/4a6d7263-87a0-4580-82a9-6c20dcabd37c)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Looking bar chart shows some clear trends in the number of tracks released each month. January and May have the highest number of releases, with each month featuring over 120 tracks. This suggests that these months are popular times for artists to release new music. On the other hand, August has the fewest releases, indicating a slower period for music releases. Overall, there seems to be a pattern where track releases are more frequent at the beginning and middle of the year, slow down during late summer, and then pick up again towards the end of the year.</br></br></br>
 
+
+### Genre and Music Characteristics
+#### * &nbsp;&nbsp;Examine the correlation between streams and musical attributes like bpm, danceability_%, and energy_%. Which attributes seem to influence streams the most? </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To analyze the relationship between streams and musical attributes like bpm, danceability, and energy, scatter plots are a useful tool. By plotting streams against each attribute, we can visually observe any patterns or trends. If a clear upward or downward trend appears, it suggests a correlation, indicating that changes in the attribute may influence streams. If the points are scattered randomly, it implies little or no relationship. This visual method is a straightforward way to see how musical features might impact streaming numbers. This can be shown on the image below.</br>
+![image](https://github.com/user-attachments/assets/46c90fc9-383d-4f39-8968-1b9803178922)</br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We can see that in the first plot, there is no clear relationship between BPM and streams, as the data points are evenly spread across different BPM values, indicating that BPM alone may not strongly influence track popularity. The second plot, which examines danceability, suggests a subtle pattern where tracks with danceability percentages between 60% and 80% tend to receive more streams, hinting at a potential preference for moderately danceable music. Lastly, the energy plot shows that tracks with energy levels between 60% and 80% are slightly more likely to have higher stream counts. On conclusion, danceability and energy seem to have a modest impact on streams, while BPM does not appear to significantly affect a track's streaming performance.</br></br>
 
