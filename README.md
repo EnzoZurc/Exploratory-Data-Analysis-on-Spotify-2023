@@ -97,7 +97,9 @@
 #### * &nbsp;&nbsp;How do the numbers of tracks in spotify_playlists, deezer_playlist, and apple_playlists compare? Which platform seems to favor the most popular tracks? </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Before ploting we have to change the data type of the deezer playlist column into a numeric one since it is in object type shown on the image below.</br>
 ![image](https://github.com/user-attachments/assets/bdd8a39b-ca62-4926-9bfd-289181c613cb)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But it looks like we have an error, which indicates that there are non-finite values in the column in_deezer_playlists
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But it looks like we have an error, which indicates that there are non-finite values in the column in_deezer_playlists. We can fix this by filling missing or undefined values with 0. After doing so we can now convert the data type into int as shown on the image below.</br>
+![image](https://github.com/user-attachments/assets/ec39b249-a6b9-498e-9045-e723bc4410e3)</br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now that we fixed the data type, We can use box plots to easily compare the number of tracks across Spotify, Deezer, and Apple playlists. The image below illustrates these comparisons, highlighting the differences in how each platform features tracks.
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now that we fixed the data type, We can use box plots to easily compare the number of tracks across Spotify, Deezer, and Apple playlists. The image below illustrates these comparisons, highlighting the differences in how each platform features tracks.</br>
+![image](https://github.com/user-attachments/assets/2837d520-c019-4662-8394-23e28160dc6e)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Looking at the plots we can observe that spotify seems to favor the most popular tracks more prominently, as it allows for significantly larger playlists, giving more visibility to these tracks. Deezer and Apple, on the other hand, feature more moderate playlist sizes, with Apple having the most compact range. This suggests that Spotify's playlist strategy may aim to include a broader array of tracks, potentially benefiting more artists and tracks through extended exposure.</br></br></br>
