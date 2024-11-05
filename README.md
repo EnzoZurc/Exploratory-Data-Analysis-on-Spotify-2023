@@ -111,5 +111,14 @@
 ![image](https://github.com/user-attachments/assets/48973d19-7a87-4738-b10f-3f7372c84ca4)</br>
 ![image](https://github.com/user-attachments/assets/98143c5f-0345-4cf4-b513-2d3dd32fc506)</br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Observing the plots, we can see that while there are some variations in the potential for certain keys to produce more popular songs, the differences aren’t very dramatic. Both Major and Minor modes seem equally capable of generating hits, so the impact of key or mode on a song’s success may not be as strong as other factors, like genre or artist.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Observing the plots, we can see that while there are some variations in the potential for certain keys to produce more popular songs, the differences aren’t very dramatic. Both Major and Minor modes seem equally capable of generating hits, so the impact of key or mode on a song’s success may not be as strong as other factors, like genre or artist.</br></br>
 
+#### * &nbsp;&nbsp;Do certain genres or artists consistently appear in more playlists or charts? Perform an analysis to compare the most frequently appearing artists in playlists or charts. </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To answer the question we'll have to count the appearances of each artist across playlists or charts. Since there are three platfoms in the data set we'll have to count them per platform, we can do this using the codes below. </br>
+![image](https://github.com/user-attachments/assets/1146f8ab-b731-4943-ab3e-8e5a4d4fa4f5)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After counting how frequent the artists appear in each playlist platforms, we can use a bar plot to be able to analyze it easier. This can be shown on the images below.</br>
+![image](https://github.com/user-attachments/assets/0ba3aee2-bb69-4e0b-af20-80881470ea7a)</br>
+![image](https://github.com/user-attachments/assets/7eacdf87-be54-4112-99ae-17e347b3b404)</br>
+![image](https://github.com/user-attachments/assets/df947bb4-c5af-456a-82c6-0d699aeac8e0)</br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We can see that there is a noticeable consistency in certain artists appearing across different platforms' charts, with Taylor Swift, Harry Styles, The Weeknd, and Ed Sheeran being among the most recurrent. This reflects their wide appeal and genre-spanning hits. Pop, pop-rock, hip-hop, and alternative/indie are the most frequently represented genres, showing their universal reach and broad listener base.
