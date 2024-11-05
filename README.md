@@ -103,3 +103,13 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now that we fixed the data type, We can use box plots to easily compare the number of tracks across Spotify, Deezer, and Apple playlists. The image below illustrates these comparisons, highlighting the differences in how each platform features tracks.</br>
 ![image](https://github.com/user-attachments/assets/2837d520-c019-4662-8394-23e28160dc6e)</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Looking at the plots we can observe that spotify seems to favor the most popular tracks more prominently, as it allows for significantly larger playlists, giving more visibility to these tracks. Deezer and Apple, on the other hand, feature more moderate playlist sizes, with Apple having the most compact range. This suggests that Spotify's playlist strategy may aim to include a broader array of tracks, potentially benefiting more artists and tracks through extended exposure.</br></br></br>
+
+
+### Advanced Analysis
+#### * &nbsp;&nbsp;Based on the streams data, can you identify any patterns among tracks with the same key or mode (Major vs. Minor)? </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To answer the question similar to the previous ones we have to visualize it. We have to plot the key in relation to the streams, which helps identify if certain keys are associated with higher streams. We also have to plot the mode in correlation with the streams to see if one mode tends to have more streams on average. This can be seen on the images below.</br>
+![image](https://github.com/user-attachments/assets/48973d19-7a87-4738-b10f-3f7372c84ca4)</br>
+![image](https://github.com/user-attachments/assets/98143c5f-0345-4cf4-b513-2d3dd32fc506)</br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Observing the plots, we can see that while there are some variations in the potential for certain keys to produce more popular songs, the differences aren’t very dramatic. Both Major and Minor modes seem equally capable of generating hits, so the impact of key or mode on a song’s success may not be as strong as other factors, like genre or artist.
+
