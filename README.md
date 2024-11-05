@@ -84,3 +84,20 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We can see that in the first plot, there is no clear relationship between BPM and streams, as the data points are evenly spread across different BPM values, indicating that BPM alone may not strongly influence track popularity. The second plot, which examines danceability, suggests a subtle pattern where tracks with danceability percentages between 60% and 80% tend to receive more streams, hinting at a potential preference for moderately danceable music. Lastly, the energy plot shows that tracks with energy levels between 60% and 80% are slightly more likely to have higher stream counts. On conclusion, danceability and energy seem to have a modest impact on streams, while BPM does not appear to significantly affect a track's streaming performance.</br></br>
 
+
+#### * &nbsp;&nbsp;Is there a correlation between danceability_% and energy_%? How about valence_% and acousticness_%? </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Like the other correlation we first have to plot them. In this instance the best plot to use is the scatter plot since we are correlating data this can be done by doing the same thing done on the previous problem and is also shown on the image below.</br>
+![image](https://github.com/user-attachments/assets/3b182da2-ed00-4fa9-86a8-33a86193e2ec)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Observing the plot between danceability and energy we can see that the plot shows a fairly scattered distribution but appears to have a slight upward trend. This might suggest a weak positive correlation, where tracks with higher danceability could be associated with higher energy.</br></br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meanwhile, the plot between valence and acousticness shows that the plot reveals a more dispersed pattern, with many points clustered around low valence and low acousticness, but there is no clear, consistent trend. This may indicate a very weak or negligible correlation.</br></br></br>
+
+
+### Platform Popularity
+#### * &nbsp;&nbsp;How do the numbers of tracks in spotify_playlists, deezer_playlist, and apple_playlists compare? Which platform seems to favor the most popular tracks? </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Before ploting we have to change the data type of the deezer playlist column into a numeric one since it is in object type shown on the image below.</br>
+![image](https://github.com/user-attachments/assets/bdd8a39b-ca62-4926-9bfd-289181c613cb)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But it looks like we have an error, which indicates that there are non-finite values in the column in_deezer_playlists
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now that we fixed the data type, We can use box plots to easily compare the number of tracks across Spotify, Deezer, and Apple playlists. The image below illustrates these comparisons, highlighting the differences in how each platform features tracks.
+
